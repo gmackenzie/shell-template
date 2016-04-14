@@ -30,6 +30,7 @@
     <plugin name="com.commontime.cordova.mdesign8.authentication" spec="../com.commontime.cordova.mdesign8/authentication" />
     <plugin name="com.commontime.cordova.mdesign8.datarequest" spec="../com.commontime.cordova.mdesign8/datarequest" />
     <plugin name="com.commontime.cordova.mdesign8.zumo" spec="../com.commontime.cordova.mdesign8/zumo" />    
+    <plugin name="com.commontime.cordova.mdesign8.preconfigure" spec="../com.commontime.cordova.mdesign8/preconfigure" />
     <plugin name="com.commontime.cordova.mdesign8.provisioning" spec="../com.commontime.cordova.mdesign8/provisioner" />
     <plugin name="com.commontime.cordova.mdesign8.resource" spec="../com.commontime.cordova.mdesign8/resource" />
     <plugin name="com.commontime.cordova.mdesign8.settingsui" spec="../com.commontime.cordova.mdesign8/settingsui" />
