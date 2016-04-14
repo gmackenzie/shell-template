@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.commontime.mdesign81" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>mDesign Shell</name>
+    <description>
+        Test Shell
+    </description>
+    <author email="gmackenzie@commontime.com" href="http://www.commontime.com">
+        CommonTime
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <plugin name="com.commontime.cordova.mdesign8.aboutbox" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/aboutbox" />
+    <plugin name="com.commontime.cordova.mdesign8.asb" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/asb" />
+    <plugin name="com.commontime.cordova.mdesign8.authentication" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/authentication" />
+    <plugin name="com.commontime.cordova.mdesign8.datarequest" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/datarequest" />
+    <plugin name="com.commontime.cordova.mdesign8.zumo" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/zumo" />    
+    <plugin name="com.commontime.cordova.mdesign8.provisioning" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/provisioner" />
+    <plugin name="com.commontime.cordova.mdesign8.resource" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/resource" />
+    <plugin name="com.commontime.cordova.mdesign8.settingsui" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/settingsui" />
+    <plugin name="com.commontime.cordova.mdesign8.thumbnail" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/thumbnail" />    
+    <plugin name="com.commontime.cordova.mdesign8.viewdocument" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/viewdocument" />
+    <plugin name="com.commontime.cordova.mdesign8.zumo" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/zumo" />
+    
+    <plugin name="cordova-plugin-barcodescanner" spec="~0.7.0" />
+    <plugin name="cordova-plugin-battery-status" spec="~1.1.1" />
+    <plugin name="cordova-plugin-camera" spec="~2.1.1" />
+    <plugin name="cordova-plugin-contacts" spec="~2.0.1" />
+    <plugin name="cordova-plugin-device" spec="~1.1.1" />
+    <plugin name="cordova-plugin-dialogs" spec="~1.2.0" />
+    <plugin name="cordova-plugin-file" spec="~4.1.1" />
+    <plugin name="cordova-plugin-file-transfer" spec="~1.5.0" />
+    <plugin name="cordova-plugin-geofence" spec="~0.5.0" />
+    <plugin name="cordova-plugin-geolocation" spec="~2.1.0" />
+    <plugin name="cordova-plugin-inappbrowser" spec="~1.2.1" />
+    <plugin name="cordova-plugin-network-information" spec="~1.2.0" />
+    <plugin name="cordova-plugin-screen-orientation" spec="~1.4.0" />
+    <plugin name="cordova-plugin-vibration" spec="~2.1.0" />
+    <plugin name="cordova-plugin-whitelist" spec="~1.2.1" />
+    
+    <!--
+    <preference name="host" value="" />
+    <preference name="port" value="616" />
+    <preference name="username" value="" />
+    <preference name="password" value="" />
+    <preference name="ssl" value="true" />
+    <preference name="startPage" value="/mdesign/0/procs/index.html" />
+    <preference name="defaultPushSystem" value="azure" />
+    <preference name="sbHostName" value="servicebus.windows.net" />
+    <preference name="serviceNamespace" value="" />
+    <preference name="sasKeyName" value="" />
+    <preference name="sasKey" value="" />
+    <preference name="brokerType" value="queue" />
+    <preference name="brokerAutoCreate" value="true" />
+    <preference name="zumoAppUrl" value="" />
+    <preference name="zumoAppKey" value="" />
+    <preference name="zumoStorageType" value="none" />
+    <preference name="zumoAuthType" value="none" />
+    <preference name="debugConnection" value="" />    
+    -->
+</widget>
