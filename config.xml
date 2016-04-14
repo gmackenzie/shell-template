@@ -28,6 +28,7 @@
     <plugin name="com.commontime.cordova.mdesign8.authentication" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/authentication" />
     <plugin name="com.commontime.cordova.mdesign8.datarequest" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/datarequest" />
     <plugin name="com.commontime.cordova.mdesign8.zumo" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/zumo" />    
+    <plugin name="com.commontime.cordova.mdesign8.preconfigure" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/preconfigure" />
     <plugin name="com.commontime.cordova.mdesign8.provisioning" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/provisioner" />
     <plugin name="com.commontime.cordova.mdesign8.resource" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/resource" />
     <plugin name="com.commontime.cordova.mdesign8.settingsui" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/settingsui" />
