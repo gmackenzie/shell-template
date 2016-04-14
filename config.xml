@@ -50,7 +50,7 @@
     <plugin name="cordova-plugin-screen-orientation" spec="~1.4.0" />
     <plugin name="cordova-plugin-vibration" spec="~2.1.0" />
     <plugin name="cordova-plugin-whitelist" spec="~1.2.1" />
-    <!--
+    
     <preference name="host" value="" />
     <preference name="port" value="616" />
     <preference name="username" value="" />
@@ -69,5 +69,5 @@
     <preference name="zumoStorageType" value="none" />
     <preference name="zumoAuthType" value="none" />
     <preference name="debugConnection" value="" />    
-    -->
+    
 </widget>
