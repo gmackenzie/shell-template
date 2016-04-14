@@ -23,17 +23,19 @@
     
     <engine name="android" spec="~5.1.1" />
     
-    <plugin name="com.commontime.cordova.mdesign8.aboutbox" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/aboutbox" />
-    <plugin name="com.commontime.cordova.mdesign8.asb" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/asb" />
-    <plugin name="com.commontime.cordova.mdesign8.authentication" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/authentication" />
-    <plugin name="com.commontime.cordova.mdesign8.datarequest" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/datarequest" />
-    <plugin name="com.commontime.cordova.mdesign8.zumo" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/zumo" />    
-    <plugin name="com.commontime.cordova.mdesign8.provisioning" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/provisioner" />
-    <plugin name="com.commontime.cordova.mdesign8.resource" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/resource" />
-    <plugin name="com.commontime.cordova.mdesign8.settingsui" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/settingsui" />
-    <plugin name="com.commontime.cordova.mdesign8.thumbnail" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/thumbnail" />    
-    <plugin name="com.commontime.cordova.mdesign8.viewdocument" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/viewdocument" />
-    <plugin name="com.commontime.cordova.mdesign8.zumo" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/zumo" />
+    <plugin name="com.commontime.cordova.mdesign8.base" spec="../com.commontime.cordova.mdesign8/base" />
+    <plugin name="com.commontime.cordova.mdesign8.notificationsbase" spec="../com.commontime.cordova.mdesign8/notificationsbase" />
+    <plugin name="com.commontime.cordova.mdesign8.aboutbox" spec="../com.commontime.cordova.mdesign8/aboutbox/" />
+    <plugin name="com.commontime.cordova.mdesign8.asb" spec="../com.commontime.cordova.mdesign8/asb" />
+    <plugin name="com.commontime.cordova.mdesign8.authentication" spec="../com.commontime.cordova.mdesign8/authentication" />
+    <plugin name="com.commontime.cordova.mdesign8.datarequest" spec="../com.commontime.cordova.mdesign8/datarequest" />
+    <plugin name="com.commontime.cordova.mdesign8.zumo" spec="../com.commontime.cordova.mdesign8/zumo" />    
+    <plugin name="com.commontime.cordova.mdesign8.provisioning" spec="../com.commontime.cordova.mdesign8/provisioner" />
+    <plugin name="com.commontime.cordova.mdesign8.resource" spec="../com.commontime.cordova.mdesign8/resource" />
+    <plugin name="com.commontime.cordova.mdesign8.settingsui" spec="../com.commontime.cordova.mdesign8/settingsui" />
+    <plugin name="com.commontime.cordova.mdesign8.thumbnail" spec="../com.commontime.cordova.mdesign8/thumbnail" />    
+    <plugin name="com.commontime.cordova.mdesign8.viewdocument" spec="../com.commontime.cordova.mdesign8/viewdocument" />
+    <plugin name="com.commontime.cordova.mdesign8.zumo" spec="../com.commontime.cordova.mdesign8/zumo" />
     
     <plugin name="cordova-plugin-barcodescanner" spec="~0.7.0" />
     <plugin name="cordova-plugin-battery-status" spec="~1.1.1" />
