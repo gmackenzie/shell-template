@@ -20,6 +20,9 @@
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
+    
+    <engine name="android" spec="~5.1.1" />
+    
     <plugin name="com.commontime.cordova.mdesign8.aboutbox" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/aboutbox" />
     <plugin name="com.commontime.cordova.mdesign8.asb" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/asb" />
     <plugin name="com.commontime.cordova.mdesign8.authentication" spec="https://github.com/commontime/com.commontime.cordova.mdesign8.git#:/authentication" />
