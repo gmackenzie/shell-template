@@ -56,7 +56,7 @@
     <preference name="port" value="616" />
     <preference name="username" value="" />
     <preference name="password" value="" />
-    <preference name="ssl" value="true" />
+    <preference name="ssl" value="false" />
     <preference name="startPage" value="/mdesign/0/procs/index.html" />
     <preference name="defaultPushSystem" value="azure" />
     <preference name="sbHostName" value="servicebus.windows.net" />
