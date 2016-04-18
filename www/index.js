@@ -53,7 +53,7 @@ function onDeviceReady() {
 	function failed() {
 		// clearTimeout(timeoutHandle);
 
-		status.innerHTML = "Failed to dowload app";
+		status.innerHTML = "Failed to download app";
 
 		showButtons();		
 
