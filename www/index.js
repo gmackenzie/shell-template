@@ -7,6 +7,7 @@ function onDeviceReady() {
 	var retryButton = document.getElementById("retry");		
 	var settingsButton = document.getElementById("settings");	
 	var progressBar = document.getElementById("progress");
+	var status = document.getElementById("status");
 	
 	console.log("Ready");
 
@@ -51,39 +52,53 @@ function onDeviceReady() {
 	
 	function failed() {
 		// clearTimeout(timeoutHandle);
-		
+
+		status.innerHTML = "Failed to dowload app";
+
 		showButtons();		
 
 		progressBar.className = progressBar.className.replace(/\bprogress__indeterminate\b/,'');
 		progressBar.MaterialProgress.setProgress(0);
-		
-		retryButton.addEventListener("click", function() {
-			hideButtons();
-			
-			progressBar.className = progressBar.className + " progress__indeterminate";
-			
-			plugins.provisioning.start(function(data) {
-				// Success
-			}, function() {
-				// Fail
-			});
-		});
+
+		retryButton.removeEventListener("click", retry);
+		retryButton.addEventListener("click", retry);
 		
 		if(plugins.settingsUi != undefined) {		
 			showButtons();
-			
-			settingsButton.addEventListener("click", function() {
-				plugins.settingsUi.open(function() {
-					hideButtons();
-					plugins.provisioning.start(function(data) {
-						// Success
-					}, function() {
-						// Fail
-					});
-				});
-			});
+
+			settingsButton.removeEventListener("click", settings);
+			settingsButton.addEventListener("click", settings);
 		}
 	}
+
+    function settings() {
+
+        status.innerHTML = "";
+
+        plugins.settingsUi.open(function() {
+        	hideButtons();
+        	plugins.provisioning.start(function(data) {
+        		// Success
+        	}, function() {
+        		// Fail
+        	});
+        });
+    }
+
+    function retry() {
+
+        status.innerHTML = "";
+
+        hideButtons();
+
+        progressBar.className = progressBar.className + " progress__indeterminate";
+
+        plugins.provisioning.start(function(data) {
+        	// Success
+        }, function() {
+        	// Fail
+        });
+    }
 
 	function hideButtons() {
 		if(settingsButton.className.indexOf("hidden") < 0 ) {		
@@ -116,5 +131,4 @@ function onDeviceReady() {
 	
 	// timeoutHandle = setTimeout(failed, 10000);
 }
-
 
